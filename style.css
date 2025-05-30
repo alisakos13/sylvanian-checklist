@@ -1,0 +1,36 @@
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background: #fefefe;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.figure-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.figure {
+    text-align: center;
+}
+
+.figure img {
+    width: 120px;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.figure img.inactive {
+    opacity: 0.3;
+}
+
+.figure img.active {
+    opacity: 1;
+}
